@@ -1,0 +1,15 @@
+{
+    "token": "MTA5NDcwNTEwMDMwOTY1OTc2MA.G21wHc.5DLy5usF08ZRPbV76hIzjiw-CQU0T9S4r7lG74",
+    "prefix": "!",
+    "logo":  "",
+    "hex_color": "#0099ff", 
+    "community_name": "IRPS Basics x TxAdmin", 
+    "role_access_id": "1094705454841614397",
+    "code_length": 24,
+    "numbers_in_code": false,
+
+    "database_host": "localhost",
+    "database_user": "root",
+    "database_password": "",
+    "database_base": "irps_basics"
+}

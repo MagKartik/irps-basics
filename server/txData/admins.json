@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MagKartik69",
+    "master": true,
+    "password_hash": "$2a$11$RzrIk9vY6cKQLtD5w.WkA.SpBIAStyyEk.0GmFihTGeMMQvxj5N7.",
+    "providers": {
+      "citizenfx": {
+        "id": "MagKartik69",
+        "identifier": "fivem:1132292",
+        "data": {
+          "sub": "1101621db0aa61ccecb158121116dc5d",
+          "nameid": "https://forum.cfx.re/internal/user/1132292",
+          "name": "MagKartik69",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/magkartik69/256/620624_2.png",
+          "profile": "https://forum.cfx.re/u/MagKartik69"
+        }
+      },
+      "discord": {
+        "id": "471394499755638784",
+        "identifier": "discord:471394499755638784",
+        "data": {}
+      }
+    },
+    "permissions": []
+  }
+]

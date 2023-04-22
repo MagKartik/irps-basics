@@ -1,0 +1,43 @@
+{
+  "global": {
+    "serverName": "Test",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Tab",
+    "hideDefaultAnnouncement": false,
+    "hideDefaultDirectMessage": false,
+    "hideDefaultWarning": false,
+    "hideDefaultScheduledRestartWarning": false
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "resourceStartingTolerance": 120
+  },
+  "playerDatabase": {
+    "onJoinCheckBan": true,
+    "whitelistMode": "guildRoles",
+    "whitelistedDiscordRoles": [
+      "1094698714532155593"
+    ],
+    "whitelistRejectionMessage": "You are not whitelisted on this sever, Your Token : </id>",
+    "banRejectionMessage": "You can join http://discord.gg/example to appeal this ban."
+  },
+  "webServer": {
+    "disableNuiSourceCheck": false
+  },
+  "discordBot": {
+    "enabled": true,
+    "token": "NzY4MTUxMjMwNDU0ODI1MDUw.G72eiH.c4q70pj4yEWmseVIhjQ4XPWioBtD4LwI2jIDRE",
+    "guild": "1094658874981761118",
+    "announceChannel": false,
+    "embedJson": "{\n  \"title\": \"{{serverName}}\",\n  \"url\": \"{{serverBrowserUrl}}\",\n  \"description\": \"Server Status Bot Testing IRPS Basics\",\n  \"fields\": [\n    {\n      \"name\": \"> STATUS\",\n      \"value\": \"```\\n{{statusString}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> PLAYERS\",\n      \"value\": \"```\\n{{serverClients}}/{{serverMaxClients}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> F8 CONNECT COMMAND\",\n      \"value\": \"```\\nconnect cfx.re/join/ghyue\\n```\"\n    },\n    {\n      \"name\": \"> UPTIME\",\n      \"value\": \"```\\n{{uptime}}\\n```\",\n      \"inline\": true\n    }\n  ],\n  \"image\": {\n    \"url\": \"https://cdn.discordapp.com/attachments/1094658875870937120/1094690320349937684/final_620d36d5fcbb8b009aa99c5a_629270.png\"\n  },\n  \"thumbnail\": {\n    \"url\": \"https://cdn.discordapp.com/attachments/706564218429767680/858260389691523093/image0.jpg\"\n  }\n}",
+    "embedConfigJson": "{\n  \"onlineString\": \"🟢 Online\",\n  \"onlineColor\": \"#0BA70B\",\n  \"partialString\": \"🟡 Partial\",\n  \"partialColor\": \"#FFF100\",\n  \"offlineString\": \"🔴 Offline\",\n  \"offlineColor\": \"#A70B28\",\n  \"buttons\": [\n    {\n      \"emoji\": \"1062338355909640233\",\n      \"label\": \"Connect\",\n      \"url\": \"{{serverJoinUrl}}\"\n    }\n  ]\n}"
+  },
+  "fxRunner": {
+    "serverDataPath": "C:/Users/Kartik/Desktop/server/main/cfx-server-data-master/",
+    "cfgPath": "C:/Users/Kartik/Desktop/server/main/cfx-server-data-master/server.cfg",
+    "autostart": true
+  }
+}
